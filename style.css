@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(50, 50, 173);
+  }
+  .topdiv {
+    height: 30px;
+    background-color: rgb(158, 152, 152);
+  }
+  .div1 {
+    background-color: rgb(253, 253, 253);
+    height: 80px;
+    /* width: 300px; */
+  }
+  .div2 {
+    background-color: rgb(253, 189, 13);
+    height: 150px;
+    /* width: 300px; */
+  }
+  .div3 {
+    background-color: rgb(252, 251, 255);
+    height: 80px;
+    /* width: 300px; */
+  }
+  h1 {
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 60px;
+  }
+  .sub-text {
+    padding-left: 60px;
+    font-weight: 500;
+  }
+  input {
+    height: 40px;
+    width: 50%;
+    outline: none;
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+  h3 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+  }
+  h4{
+    padding-top: 28px ;
+    padding-bottom: 1px;
+    font-weight: bold;
+  }
+  .maindiv {
+    color: rgb(231, 231, 231);
+    font-weight: 350;
+    line-height: 30px;
+  }
+  td{
+    padding-right: 25px;
+  }
+  /* i{
+    padding: 10px;
+    color:rgb(255, 174, 0) ;
+  } */
+  .pad{
+    padding: 10px 20px 10px 0px;
+    color: rgb(221, 219, 219);
+  }
+  .color{
+    color:rgb(255, 174, 0) ;
+    padding: 8px;
+  }
+  .time{
+    font-weight: 500;
+  }
+  .arrow{
+    color:rgb(255, 174, 0) ;
+    font-size: 45px;
+    position: fixed;
+    bottom: 40px;
+    right: 70px;
+  }
+  @media (max-width: 765px){
+    .div1{
+      display: none;
+    }
+    .div3{
+      display: none;
+    }
+    .dnone{
+      display: none;
+    }
+  }
